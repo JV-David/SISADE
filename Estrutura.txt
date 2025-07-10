@@ -1,0 +1,41 @@
+sisade/
+│
+├── app.py                  # Ponto de entrada principal da aplicação
+├── config.py               # Configurações globais e constantes
+├── styles.py               # Estilos CSS personalizados
+│
+├── components/             # Componentes reutilizáveis da UI
+│   ├── __init__.py
+│   ├── header.py           # Componente do cabeçalho
+│   ├── sidebar.py          # Componente da barra lateral
+│   ├── metrics.py          # Componentes de métricas e cards
+│   ├── data_uploader.py    # Componente de upload de dados
+│   └── analysis_cards.py   # Cards de resultados de análise
+│
+├── core/                   # Lógica principal do sistema
+│   ├── __init__.py
+│   ├── analyzer.py         # Classe SISADEAnalyzer (IA e análises)
+│   ├── data_processor.py   # Processamento e limpeza de dados
+│   └── report_generator.py # Geração de relatórios
+│
+├── analysis/               # Módulos de análise específicos
+│   ├── __init__.py
+│   ├── descriptive.py      # Análise descritiva
+│   ├── survival.py         # Análise de sobrevivência
+│   ├── predictive.py       # Análise preditiva
+│   └── utils.py           # Utilitários de análise
+│
+├── pages/                  # Páginas/abas da aplicação
+│   ├── __init__.py
+│   ├── home.py             # Página inicial
+│   ├── descriptive.py      # Página de análise descritiva
+│   ├── survival.py         # Página de análise de sobrevivência
+│   ├── predictive.py       # Página de análise preditiva
+│   └── report.py           # Página de relatórios
+│
+└── utils/                  # Utilitários auxiliares
+    ├── __init__.py
+    ├── plotting.py         # Funções de visualização
+    ├── data_validation.py  # Validação de dados
+    ├── api_handlers.py     # Manipulação de APIs externas
+    └── helpers.py          # Funções auxiliares
